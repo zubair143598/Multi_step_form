@@ -13,7 +13,7 @@ const StepThree = ({ setTab }) => {
           <button 
           onClick={()=>setTab(prev =>prev-1)}
           
-          className="flex flex-1 mt-2 sm:absolute left-0 sm:px-2 cursor-pointer items-center gap-2 uppercase tracking-widest lg:text-[20px] text-[16px]">
+          className="flex flex-1 mt-2 ml-[-70px] lg:ml-[10px] sm:absolute left-0 sm:px-2 cursor-pointer items-center gap-2 uppercase tracking-widest lg:text-[20px] text-[16px]">
             <img
               src="/Assests/keyback.png"
               alt="keyback"

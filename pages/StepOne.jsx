@@ -7,9 +7,9 @@ const StepOne = ({setTab}) => {
 
   return (
     <>
-    <div className="border-2 rounded-xl lg:px-60 lg:pb-[30px]  p-24 border-[#DFCFAB]">
+    <div>
     <h2 className="lg:text-[20px] text-[16px] absolute top-[80px] left-[2rem]   ">APPLY</h2>
-          <button className="flex flex-1 lg:mt-[-85px] mt-2 sm:absolute left-0 sm:px-2 cursor-pointer items-center gap-2 uppercase tracking-widest lg:text-[20px] text-[16px]">
+          <button className="flex flex-1 lg:mt-[-85px] mt-2 sm:absolute lg:ml-[-20px] ml-[-10rem]  left-[2rem] sm:px-2 cursor-pointer items-center gap-2 uppercase tracking-widest lg:text-[20px] text-[16px]">
             <img
               src="/Assests/keyback.png"
               alt="keyback"
@@ -17,8 +17,11 @@ const StepOne = ({setTab}) => {
             />
             <span>BacK</span>
           </button>
+    </div>
+    <div className="border-2 rounded-xl lg:px-60 lg:pb-[30px] p-14 py-24 border-[#DFCFAB]">
+    
         <p className=" lg:text-[20px] title-font ">START YOUR APPLICATION</p>
-        <img className=" w-[290px] 3xl:w-[260px] lg:mt-20 " src="./Assests/logo.png" alt="" />
+        <img className=" w-[290px] lg:w-[260px] lg:mt-20 " src="./Assests/logo.png" alt="" />
         <div className="  p-2 flex justify-center mt-5  ">
       <select className=" py-3 px-10 rounded border-2 border-gray-300" value={country} onChange={(e) => setCountry(e.target.value)}>
         <option value="">Select a country</option>

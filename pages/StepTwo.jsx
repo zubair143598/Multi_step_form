@@ -11,7 +11,7 @@ const StepTwo = ({setTab}) => {
           
           <button 
           onClick={()=>setTab(prev =>prev-1)}
-          className="flex flex-1 mt-2 sm:absolute left-0 sm:px-2 cursor-pointer items-center gap-2 uppercase tracking-widest lg:text-[20px] text-[16px]">
+          className="flex flex-1 mt-2 lg:absolute relative lg:left-[10px] left-[60px]  lg:px-2 cursor-pointer items-center gap-2 uppercase tracking-widest lg:text-[20px] text-[16px]">
             <img
               src="/Assests/keyback.png"
               alt="keyback"
@@ -20,7 +20,7 @@ const StepTwo = ({setTab}) => {
             <span>BacK</span>
           </button>
         </div>
-        <div className="border-2 rounded-xl lg:px-60  p-24 border-[#DFCFAB]">
+        <div className="border-2 rounded-xl lg:px-60 lg:pb-[30px] p-12 py-24 border-[#DFCFAB]">
         <p className=" lg:text-[20px] title-font ">START YOUR APPLICATION</p>
         <img className=" w-[290px] 3xl:w-[260px] lg:mt-20 " src="./Assests/logo.png" alt="" />
         <div className="  p-2 flex justify-center mt-5  ">

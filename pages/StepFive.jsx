@@ -11,7 +11,7 @@ const StepFive = ({setTab}) => {
           </h2>
           <button
           onClick={()=>setTab(prev =>prev-1)}
-          className="flex flex-1 mt-2 sm:absolute left-0 sm:px-2 cursor-pointer items-center gap-2 uppercase tracking-widest xl:text-[20px] text-[16px]">
+          className="flex flex-1 mt-2 ml-[-70px] lg:ml-[10px] sm:absolute left-0 sm:px-2 cursor-pointer items-center gap-2 uppercase tracking-widest xl:text-[20px] text-[16px]">
             <img
               src="/Assests/keyback.png"
               alt="keyback"
@@ -227,7 +227,7 @@ const StepFive = ({setTab}) => {
               <img
                 src="https://zimo.team/assets/UploadIcon.png"
                 alt=""
-                className="w-[18px] "
+                className="w-[18px] mr-[63px] "
               />
               <span className="MuiTouchRipple-root css-w0pj6f"></span>
             </button>
